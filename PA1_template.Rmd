@@ -42,7 +42,8 @@ mean(totalSteps$steps)
 #Calculating median
 median(totalSteps$steps)
 ```
-
+Mean = 10766.19
+Median = 10765
 
 ## What is the average daily activity pattern?
 1. Make a time series plot (i.e. type="l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis) 
@@ -75,6 +76,7 @@ print(max_interval)
 totalMissingVal <- sum(is.na(data$steps))
 print(totalMissingVal)
 ```
+2304 missing values
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval etc.
 
